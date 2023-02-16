@@ -1,0 +1,24 @@
+main {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.container_botao {
+    padding-top: 4em;
+}
+
+.botao_item {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px black solid;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 500ms;
+    margin-bottom: 1em;
+}
+
+.botao_item:hover {
+    box-shadow: -2px -2px 15px rgba(248, 223, 83, 0.527) inset;
+    transition: 500ms;
+}
